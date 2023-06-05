@@ -1,0 +1,163 @@
+ html{
+
+    scroll-behavior:smooth;
+ }
+
+
+
+
+body {
+    /* background*/
+    background-color: darkgrey;
+
+    /* Text*/
+    color: black;
+    text-align: justify;
+
+    /*Alinhamento e Tamanho*/
+    width: 85%;
+    margin: auto;
+}
+
+section {
+    /* em formato shorhand*/
+    padding: 64px 256px;
+}
+
+/*Tabela*/
+
+table {
+
+    width: 100%;
+}
+
+/* Se colocar virgula, da pra colocar a mesma configuração em mais de uma seção: td, th*/
+td,
+th {
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 6px;
+    text-align: center;
+}
+
+td {
+    background-color: bisque;
+
+}
+
+tr {
+    background-color: beige;
+}
+
+
+
+/* Título, Texto e Parágrafo*/
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1,
+h2, 
+h3 {
+
+    text-align: center;
+}
+
+h3 {
+
+    color: black;
+}
+/*Links*/
+
+/*Cor do link NORMAL*/
+a:link {
+    color: black;
+
+}
+/* Cor depois que link for visitado*/
+a:visited{
+color:orange;
+}
+
+/* Quando passa o mouse por cima */
+a:hover{
+
+    color:cadetblue;
+}
+/* Quando clicar no link, ficará nesta cor*/
+A:active{
+
+    color:aqua;
+}
+/*iMAGEM*/
+img {
+
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+
+}
+/*Classes e IDs */
+
+
+.bookTitle {
+
+    background-color: bisque;
+    color: black;
+    text-align: center;
+
+}
+
+#sectionCV,
+#sectionCP {
+
+    background-color: azure;
+
+}
+
+#header{
+ 
+    background-color:antiquewhite;
+    text-align: center;
+    color: chocolate;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+#biblioteca{
+
+    text-align: center;
+    text-indent: 0px;
+}
+
+#sumary{
+
+background-color:antiquewhite;
+color: black;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 0 0 50px 50px;
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+
+/*Roda pé*/
+
+footer{
+
+    background-color: antiquewhite;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    
+
+
+}

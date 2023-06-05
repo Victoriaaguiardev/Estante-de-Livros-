@@ -5,55 +5,15 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estante de Livros</title>
+    
+  <!-- Para inserir o CSS no HTML bata seguir os seguintes passos: -->  
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title> Estante de Livros</title>
 
     <!-- Se eu colocar simplesmete um A para estilizar, ele vai estilizar tudo que tem na tag A 
 Como exemplo a tag a href -->
 
-    <style>
-        a {
-            color: deeppink;
-
-        }
-
-        table {
-
-            width: 100%;
-        }
-
-        td {
-            background-color: bisque;
-        }
-
-        tr {
-            background-color: beige;
-        }
-
-        p {
-            text-align: justify;
-            text-indent: 50px;
-        }
-
-        img{
-
-            width:250px ;
-            height: 300px;
-            
-        }
-        .bookTitle {
-
-            background-color: bisque;
-            color:black;
-            text-align: center;
-            
-        }
-
-        #sectionCV, #sectionCP {
-
-            background-color: azure;
-
-        }
-    </style>
+   
 </head>
 
 <!-- Tem como estilizar mais de uma seção em conjunto 
@@ -65,11 +25,11 @@ LINHAS 51 52 53
 a, tr, td, img, p, table, etc.
 -->
 <body>
-    <div>
+    <div id="header">
         <h1>Estante de livros</h1>
-        <p> Sua biblioteca à um clique de distância</p>
+        <p id="biblioteca"> Sua biblioteca à um clique de distância</p>
     </div>
-    <div>
+    <div id="sumary">
         <h2>Sumário</h2>
         <ol>
             <li> <a href="#sectionCV">Como eu Era antes de você</a> </li>
@@ -240,7 +200,7 @@ a, tr, td, img, p, table, etc.
             </tbody>
         </table>
     </section>
-
+<footer><a href="#header">Voltar para o topo</a></footer>
 </body>
 
 
