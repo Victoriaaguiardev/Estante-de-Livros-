@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante de Livros</title>
+
+    <!-- Se eu colocar simplesmete um A para estilizar, ele vai estilizar tudo que tem na tag A 
+Como exemplo a tag a href -->
+
+    <style>
+        a {
+            color: deeppink;
+
+        }
+
+        table {
+
+            width: 100%;
+        }
+
+        td {
+            background-color: bisque;
+        }
+
+        tr {
+            background-color: beige;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 50px;
+        }
+
+        img{
+
+            width:250px ;
+            height: 300px;
+            
+        }
+        .bookTitle {
+
+            background-color: bisque;
+            color:black;
+            text-align: center;
+            
+        }
+
+        #sectionCV, #sectionCP {
+
+            background-color: azure;
+
+        }
+    </style>
+</head>
+
+<!-- Tem como estilizar mais de uma seção em conjunto 
+#section1, #section2 {} basta inserir vírgulas 
+LINHAS 51 52 53 
+-->
+<!--LEMBRANDO que, para CLASS usa o ponto ". " e para ID usa o # -->
+<!-- Para as outras tags não precisa de ponto ou hashtag, basta apenas inserir o nome da tag 
+a, tr, td, img, p, table, etc.
+-->
+<body>
+    <div>
+        <h1>Estante de livros</h1>
+        <p> Sua biblioteca à um clique de distância</p>
+    </div>
+    <div>
+        <h2>Sumário</h2>
+        <ol>
+            <li> <a href="#sectionCV">Como eu Era antes de você</a> </li>
+            <li><a href="#sectionDP">Depois de Você</a></li>
+            <li><a href="#sectionCP">Café com Deus Pai</a></li>
+            <li><a href="#sectionSA">O Senhor dos Anéis: Volume Único - Capa Os Anéis de Poder</a></li>
+        </ol>
+    </div>
+    <section id="sectionCV">
+        <h2 class="bookTitle"><em>Como eu Era antes de você</em>
+        </h2>
+        <img src="img/imagem1.jpg" alt="Capa do filme Como eu era antes de você" width="150px" height="200px">
+        <h3>Sinopse
+        </h3>
+        <p>De origem modesta e sem grandes aspirações, a peculiar Louisa Clark é contratada para ser cuidadora de Will,
+            um jovem tetraplégico depressivo e cínico.</p>
+        <b>
+            <p>Fonte: Google Books </p>
+        </b>
+
+        <table>
+            <thead>
+                <th>Data</th>
+                <th>Autor</th>
+                <th>Idioma original</th>
+                <th>Gênero</th>
+                <th>N° de Páginas</th>
+                <th>Editora</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>5 de janeiro de 2012 (Brasil)</td>
+                    <td> Jojo Moyes</td>
+                    <td>Inglês</td>
+                    <td>Romance</td>
+                    <td>320 Páginas</td>
+                    <td>John Wilson</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="sectionDP">
+        <h2 class="bookTitle">
+            <em>Depois de Você</em>
+        </h2>
+        <img src="img/imagem3.jpg" alt="Capa do Livro Depois de Você" width="150px" height="200px">
+        <h3>Sinopse
+        </h3>
+        <p>Em Depois de você, Lou ainda não superou a perda de Will. Morando em um flat em Londres, ela trabalha como
+            garçonete em um pub no aeroporto. Certo dia, após beber muito, Lou cai do terraço. O terrível acidente a
+            obriga voltar para a casa de sua família, mas também a permite conhecer Sam Fielding, um paramédico cujo
+            trabalho é lidar com a vida e a morte, a única pessoa que parece capaz de compreendê-la.
+
+            Ao se recuperar, Lou sabe que precisa dar uma guinada na própria história e acaba entrando para um grupo de
+            terapia de luto. Os membros compartilham sabedoria, risadas, frustrações e biscoitos horrorosos, além de a
+            incentivarem a investir em Sam. Tudo parece começar a se encaixar, quando alguém do passado de Will surge e
+            atrapalha os planos de Lou, levando-a a um futuro totalmente diferente.</p>
+        <b>
+            <p>Fonte: Google Books </p>
+        </b>
+
+        <table>
+            <thead>
+                <th>Data</th>
+                <th>Autor</th>
+                <th>Idioma original</th>
+                <th>Gênero</th>
+                <th>N° de Páginas</th>
+                <th>Editora</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 4 de fev. de 2016</td>
+                    <td> Jojo Moyes</td>
+                    <td>Inglês</td>
+                    <td>Romance</td>
+                    <td>320 Páginas</td>
+                    <td>John Wilson</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="sectionCP">
+        <h2 class="bookTitle">
+            <em>Café com Deus Pai</em>
+        </h2>
+        <img src="img/imagem2.jpg" alt="Capa livro Café com Deus Pai " width="150px" height="200px">
+        <h3>Sinopse
+        </h3>
+        <p>Com o passar das horas do dia, envoltos por tarefas dos mais diversos tipos, precisamos de pausas para
+            renovar nossas forças e seguir adiante. Uma forma de aproveitar bem as pequenas pausas é tomando um bom
+            café. Esse tempo será ainda melhor se estivermos em boa companhia.
+            Refletindo sobre a importância de mantermos a mente renovada e tomarmos decisões diárias de forma assertiva,
+            Junior Rostirola preparou esta jornada de fé, esperança e renovação para o seu ano. Permita-se desfrutar de
+            um tempo diário com a maior e melhor companhia que um ser humano pode ter.
+        </p>
+        <b>
+            <p>Fonte: Google Books </p>
+        </b>
+
+        <table>
+            <thead>
+                <th>Data</th>
+                <th>Autor</th>
+                <th>Idioma original</th>
+                <th>Gênero</th>
+                <th>N° de Páginas</th>
+                <th>Editora</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 21 de set. de 2022</td>
+                    <td> Junior Rostirola</td>
+                    <td>Português</td>
+                    <td>Religião</td>
+                    <td>424 páginas</td>
+                    <td>Vida</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="sectionSA">
+        <h2 class="bookTitle">
+            <em>O Senhor dos Anéis: Volume Único - Capa Os Anéis de Poder</em>
+        </h2>
+        <img src="img/imagem4.jpg" alt="Capa livro O Senhor dos Anéis: Volume Único - Capa Os Anéis de Poder"
+            width="150px" height="200px">
+        <h3>Sinopse</h3>
+        <p>Nos tempos antigos da Terra-média, mais especificamente na Segunda Era, os ferreiros-élficos de Eregion,
+            liderados por Celebrimbor, criaram os Anéis de Poder. Mas o que eles não sabiam, era que em Mordor, Sauron,
+            o Senhor das Trevas, forjou o Um Anel, enchendo-o com seu próprio poder para que pudesse governar todos os
+            outros. Depois da Batalha da Última Aliança, onde Elfos (liderados por Elrond e Gil-galad) e os poderosos
+            Homens de Númenor (liderados por Elendil e Isildur) lutaram juntos contra Sauron, ele foi derrotado e o seu
+            Anel foi tirado dele. Sauron vagou em forma de um espírito derrotado por séculos, até que depois de ter
+            reunido um pouco de forças, buscou seu artefato em vão. Ele estava perdido e se tornara apenas uma lenda,
+            conhecida por poucos, na Terra-média. Depois de muitas eras, o Um Anel caiu por acaso nas mãos do improvável
+            hobbit Bilbo Bolseiro do Condado.
+
+            Quando Bilbo atingiu seu onzentésimo primeiro aniversário, acabou legando a seu jovem sobrinho Frodo o Anel
+            Governante. Porém, o mago Gandalf, depois de muito estudar, descobre a verdade sobre o artefato e indica a
+            Frodo uma missão perigosa: viajar pela Terra-média, mergulhar nas sombras de Mordor e destruir o Anel,
+            lançando-o na Fenda da Perdição.</p>
+
+        <b>
+            <p> Fonte: Amazon</p>
+        </b>
+
+
+        <table>
+            <thead>
+                <th>Data</th>
+                <th>Autor</th>
+                <th>Idioma Original</th>
+                <th>Gênero</th>
+                <th>N° de Páginas</th>
+                <th>Editora</th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9 de ago 2022</td>
+                    <td>J.R.R. Tolkien </td>
+                    <td>Inglês</td>
+                    <td>Ação, Aventura, Romance, etc</td>
+                    <td>1211 Páginas</td>
+                    <td>Martins Fontes </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+
+</html>
